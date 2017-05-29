@@ -17,12 +17,15 @@ The hwole document should now look similar to [ this example ](https://davidrzs.
 Theorems, Definitions, Remarks and Proofs are supported. Just wrap your content in a `div` and add the corresponding class to the `div` like in the following example. 
 
 ```html
-<div class="theorem"></div>
-<div class="definition"></div>
-<div class="lemma"></div>
-<div class="proof"></div>
+<div class="theorem">...</div>
+<div class="definition">...</div>
+<div class="lemma">...</div>
+<div class="proof">...</div>
 ```
-or 
+
+An example would look like this:
+![latex environments in html and css]()
+
 
 ### Numbered vs Not-numbered
 There are two latex.css files in this repository. 
