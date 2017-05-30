@@ -116,41 +116,36 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">A very simple example</h1>
+<h1 class="title toc-ignore">A very simple  </h1>
 
 </div>
 
 
-<p><br> Let us start with an example theorem</p>
-<div class="definition">
-A number <span class="math inline">\(n\)</span> is called even if <span class="math inline">\(n%2 = 0\)</span>. An odd number <span class="math inline">\(m\)</span> is odd if <span class="math inline">\(m%2 \neq 0\)</span>. Futhermore lets write an <span class="math inline">\(m\)</span> as <span class="math inline">\(m=2q+1\)</span> and <span class="math inline">\(n\)</span> = <span class="math inline">\(n = 2p\)</span> for <span class="math inline">\(p,q\in \mathbb{R}\)</span>
+
+<br>
+<p>Let us start with a definition
+</p>
+
+<div class="definition">A number $n$ is called even if $n\%2 = 0$. An odd number $m$ is odd if $m \%2 \neq 0$. Futhermore lets write an $m$ as $m=2q+1$ and $n$ = $n = 2p$ for $p,q\in \mathbb{R}$</div>
+<p>In order to prove the next theorem we will need the next Lemma which we will not prove.</p>
+<div class="lemma">An even number plus an even number results in an even number.</div>
+<p>We can now come to our theorem.</p>
+<div class="theorem"> The sum of an odd number $m$ and an even number $n$ is always odd. </div>
+
+
+<div class="proof">Lets write $m = 2q+1$ and $n = 2p$. $\implies$ $m+n$ = $2q+2p + 1 $ = $2(p+q) + 1$. We know $2(p+q) %2 = 0$ but $1\%2 \neq0$ $ \implies$ $m+n$ must be odd.</div>
+
+
+
+
+
 </div>
-<div class="lemma">
-An even number plus an even number results in an even number.
-</div>
-<div class="theorem">
-The sum of an odd number <span class="math inline">\(m\)</span> and an even number <span class="math inline">\(n\)</span> is always odd.
-</div>
-<div class="proof">
-Lets write <span class="math inline">\(m = 2q+1\)</span> and <span class="math inline">\(n = 2p\)</span>. <span class="math inline">\(\implies\)</span> <span class="math inline">\(m+n\)</span> = $2q+2p + 1 $ = <span class="math inline">\(2(p+q) + 1\)</span>. We know <span class="math inline">\(2(p+q) %2 = 0\)</span> but <span class="math inline">\(1%2 \neq0\)</span> <span class="math inline">\(m+n\)</span> must be odd.
-</div>
 
 
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$']]}
 });
-
-
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
