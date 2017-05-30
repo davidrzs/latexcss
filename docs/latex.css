@@ -139,7 +139,7 @@ dl dd {
     font-style: normal;
 }
 .definition:before {
- content: "Definition" counter(definition) ".";
+ content: "Definition " counter(definition) ".";
      font-weight: bold;
     font-style: normal;
 }
