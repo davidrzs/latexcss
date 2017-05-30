@@ -10,7 +10,7 @@ Just open your html file and add the following to your document head:
 ```html
 <link rel="stylesheet" type="text/css" href="latex.css">
 ```
-The hwole document should now look similar to [ this example ](https://davidrzs.github.io/latexcss/example.html) .
+The whole document should now look similar to [ this example ](https://davidrzs.github.io/latexcss/example.html) .
 
 
 ## Theorems, Definitions and Proofs
