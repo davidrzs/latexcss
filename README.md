@@ -10,6 +10,7 @@ Just open your html file and add the following to your document head:
 ```html
 <link rel="stylesheet" type="text/css" href="latex.css">
 ```
+(Of course you still need to download the latex.css file and place it in the same directory)
 The whole document should now look similar to [ this example ](https://davidrzs.github.io/latexcss/example.html) .
 
 
@@ -30,7 +31,7 @@ An example would look like this:
 ### Numbered vs Not-numbered
 There are two latex.css files in this repository. 
  1. latex.css -> This is the normal one and numbers the theorems etc.
- 2. latex_no_numbers.css -> Exactly the same as latex.css but doesn't number the theorems etc.
+ 2. latex_no_numbers.css -> Exactly the same as latex.css but doesn't number the theorems etc. 
 
 ## Credits:
 This repository is more or less just a combination of other projects:
