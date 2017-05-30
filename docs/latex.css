@@ -46,6 +46,8 @@ body {
 
 body {
 	font-family: 'Latin Modern Roman', serif;
+	counter-reset: theorem;
+	counter-reset: definition;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,22 +98,24 @@ dl dd {
 
 
 .theorem {
+	 counter-increment: theorem;
     display: block;
     margin: 12px 0;
     font-style: italic;
 }
 .theorem:before {
-    content: "Theorem.";
-    font-weight: bold;
+ content: "Theorem " counter(theorem) ".";
+     font-weight: bold;
     font-style: normal;
 }
 .lemma {
+	 counter-increment: theorem;
     display: block;
     margin: 12px 0;
     font-style: italic;
 }
 .lemma:before {
-    content: "Lemma.";
+	content: "Lemma " counter(theorem) ".";
     font-weight: bold;
     font-style: normal;
 }
@@ -129,13 +133,14 @@ dl dd {
     float:right;
 }
 .definition {
+	 counter-increment: definition;
     display: block;
     margin: 12px 0;
     font-style: normal;
 }
 .definition:before {
-    content: "Definition.";
-    font-weight: bold;
+ content: "Definition" counter(definition) ".";
+     font-weight: bold;
     font-style: normal;
 }
 
