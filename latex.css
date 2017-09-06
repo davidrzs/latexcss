@@ -70,7 +70,7 @@ body {
 	margin: 2em auto;
 }
 
-h1:first-child {
+h1:first-of-type  {
 	text-align: center;
 	display: block;
 }
@@ -149,4 +149,4 @@ dl dd {
 	margin-bottom: 8px;
   	font-variant-caps: small-caps;
   	text-align: center;
-}  
+}
